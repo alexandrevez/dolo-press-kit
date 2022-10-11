@@ -1,0 +1,76 @@
+<div class="section">
+	<div class="title">
+		<div class="dernier-album">Dernier album</div>
+		<div class="tlmaf">Tout le monde a froid</div>
+		<div class="sortie">Sortie radio le 3 août 2021</div>
+	</div>
+
+	<div class="cover">
+		<div class="links">
+			<a href="https://open.spotify.com/album/3qQWuzYF5lLKwzo8EQLwB1?si=t3X6bn21QZ2244UsKDHPMw&dl_branch=1" class="spotify">Spotify</a>
+			<a href="https://music.apple.com/us/album/tout-le-monde-a-froid/1584868998" class="apple-music">Apple Music</a>
+			<a href="https://tidal.com/browse/album/186461239" class="tidal">Tidal</a>
+		</div>
+	</div>
+</div>
+
+<style>
+.section {
+	height: 11in;
+	width: 100%;
+	background-color: #131313;
+	color: #ffffff;
+}
+.title {
+	height: 33%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 60px;
+}
+.title .dernier-album {
+	font-size: 60px;
+	text-transform: uppercase;
+}
+.title .tlmaf {
+	font-size: 36px;
+}
+.cover {
+	height: 66%;
+	background: url('/tlmaf-pochette.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #131313;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+}
+.links {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 28px;
+	width: 100%;
+	padding: 0 3em;
+	max-width: 1000px;
+	justify-content: space-between;
+	height: 56px;
+	position: absolute;
+	bottom: 12px;
+}
+.links a {
+	color: #000;
+	font-family: 'Courier New', Courier, monospace;
+	text-decoration: none;
+	font-size: 28px;
+	padding: 0.5em 1em;
+	background-color: #fff;
+	border-radius: 4px;
+	white-space: nowrap;
+	overflow: hidden;
+	opacity: 0.8;
+}
+</style>

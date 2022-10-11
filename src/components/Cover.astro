@@ -1,0 +1,50 @@
+<div class="section">
+	<div class="title">
+		<div class="dolo">Doloréanne</div>
+		<div class="press-kit">Dossier de presse</div>
+	</div>
+	<div class="cover">
+		<img src="/logo-cover.svg" alt="DOLORÉANNE" />
+	</div>
+</div>
+
+<style>
+.section {
+	height: 11in;
+	width: 100%;
+	background-color: #131313;
+}
+.title {
+	color: #fff;
+	height: 33%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 60px;
+}
+.title .dolo {
+	font-size: 60px;
+	text-transform: uppercase;
+}
+.title .press-kit {
+	font-size: 36px;
+}
+.cover {
+	height: 67%;
+	width: 100%;
+	background: url('/cover.jpg');
+	background-size: cover;
+	position: relative;
+	background-position: center;
+}
+.cover img {
+	width: 35%;
+	height: auto;
+	position: absolute;
+	bottom: 0;
+	left: 3em;
+	mix-blend-mode: screen;
+	opacity: 0.5;
+}
+
+</style>
